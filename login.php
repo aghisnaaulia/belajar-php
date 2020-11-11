@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "phpsiswa");
+$conn = mysqli_connect("localhost", "root", "", "php_siswa");
 if(isset($_POST["login"])) {
     $username = $_POST["username"];
     $password = $_POST["password"];
